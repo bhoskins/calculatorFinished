@@ -1,0 +1,85 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/*****************
+  Base Styles
+******************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  background: blue;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+button {
+  border: 1px solid navy;
+  border-radius: 20px;
+  height: 40px; }
+
+.equals {
+  background: aqua;
+  font-size: 1em;
+  color: blue; }
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid darkblue; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.results {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding: 0 5px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 1.1em; }
+  .results:last-child {
+    margin-right: 0; }
+
+.row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: 1px solid blue; }
+  .row:last-child {
+    margin-right: 0; }
+
+button {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  button:last-child {
+    margin-right: 0; }
+
+.ac {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .ac:last-child {
+    margin-right: 0; }
+
+.omega {
+  margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */

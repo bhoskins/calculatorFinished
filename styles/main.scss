@@ -1,0 +1,74 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+
+
+
+
+
+
+/*****************
+  Base Styles
+******************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: blue;
+  font-family: $helvetica;
+  font-size: 1em;
+
+}
+
+button {
+  border: 1px solid navy;
+  border-radius: 20px;
+  height: 40px;
+
+}
+
+.equals {
+  background: aqua;
+  font-size: 1em;
+  color: rgba(0, 0, 255, 1);
+
+}
+
+.container {
+  @include outer-container(100%);
+  border: 3px solid darkblue;
+
+}
+
+.results {
+  @include span-columns(6);
+  padding: 0 5px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 1.1em;
+
+}
+
+.row {
+  @include span-columns(12);
+  border: 1px solid blue;
+}
+
+button {
+  @include span-columns(2);
+
+}
+
+.ac {
+  @include span-columns(4);
+
+}
+
+.omega {
+  @include omega();
+}

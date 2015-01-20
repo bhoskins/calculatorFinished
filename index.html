@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <form class="form" onload="reset()">
+    <div id="container">
+
+      <input type="text" id="results" class="results">
+
+      <div class="scientific-functions row">
+      <!--   <button id="pi"><span>&#8719;</span></button> -->
+        <button id="squared" ><span>sq</span></buttons>
+        <button id="squareRoot">sq rt</buttons>
+        <button id="toNth">nth</buttons>
+        <button id="modulus">mod</buttons>
+        <button class="omega" id="oneOver">1/x</buttons>
+      </div>
+
+  <div class="overNumbers row">
+    <button id="leftParentheses"><span>&#40;</span></button>
+    <button id="rightParentheses"><span>&#41;</span></button>
+    <button id="back"><span>&lt;</span></button>
+    <button class="ac omega" id="ac">AC</button>
+  </div>
+
+  <div class="topNumberLine row"></div>
+    <button id="one" data-cost="1">1</button>
+    <button id="two">2</button>
+    <button id="three">3</button>
+    <button id="multiply"><span>&times;</span></button>
+    <button class="omega" id="percent"><span>&#37;</span></button>
+  </div>
+
+  <div class="middleNumberLine row">
+    <button id="four">4</button>
+    <button id="five">5</button>
+    <button id="six">6</button>
+    <button id="divide"><span>&divide;</span></button>
+    <button class="omega" id="changeSign"><span>&plusmn;</span></button>
+</div>
+
+  <div class="bottomNumberLine row">
+    <button id="seven">7</button>
+    <button id="eight">8</button>
+    <button id="nine">9</button>
+    <button id="subtract"><span>&#8722;</span></button>
+    <button class="omega equals" id="equals"><span>&#61;</span></button>
+  </div>
+
+  <div class="zeroLine row">
+    <button id="decimal">&period;</button>
+    <button id="zero">0</button>
+    <button id="function">f</button>
+    <button class="omega" id="add"><span>&#43;</span></button>
+  </div>
+
+
+  </form>
+
+  <script type="text/javascript" src="scripts/main.js">
+  </script>
+
+</body>
+</html>
